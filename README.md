@@ -33,3 +33,15 @@ To apply database migrations, run the following command:
 
 ```bash
 npx prisma migrate dev
+
+## Routes
+
+- `GET /`: Seeds the data to the database.
+- `GET /get-all`: Get all data of the table specified.
+- `GET /statistics/:month`: Get statistics of the month.
+- `GET /serach-month/:page/:month`: search items with month and page for pagination.
+- `GET /search/:page/:month/:title/:description/:price`: Search items with page,month,title,description and price.
+- `GET /barchart/:month`: get barchart data for month.
+- `GET /piechart/:month`: get piechart data for month.
+- `GET /fetch-all/:month`: get statistics,barchart and piechart data for a month.
+
