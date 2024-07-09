@@ -11,7 +11,7 @@ import {
 } from '../controller/seedData.Controller.js'
 const router = express.Router();
 
-router.get('/',createData);
+router.get('/create',createData);
 router.get('/get-all',seeSeedData)
 router.get('/statistics/:month',statisticsMonth)
 router.get('/serach-month/:page/:month',searchMonthOnly)
