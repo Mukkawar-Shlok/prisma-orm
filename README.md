@@ -33,7 +33,7 @@ To apply database migrations, run the following command:
 
 ```bash
 npx prisma migrate dev
-
+```
 ## Routes
 
 - `GET /`: Seeds the data to the database.
